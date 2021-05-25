@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src = "BIBLIOTECA_JQUERY/jquery.min.js"></script>
+    <script type="text/javascript" src="JS/main.js"></script>
+    <link rel="stylesheet" type ="text/css" href="bootstrap/bootstrap-5.0.1-dist/css/bootstrap.min.css">
+
+    <title>Minha página </title>
+</head>
+<body>
+    <!-- <input id="cep">
+    <button type= "button" onclick="consultaCep()">Consultar</button>
+    <p id= "logradouro">logradouro</p>
+    <p id= "bairro"> Bairro</p>
+    <p id= "localidade"> Localidade</p>
+    <p id= "uf">UF</p>-->
+
+          <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand">Consulta CEP</a>
+              <div class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="CEP" id="cep">
+                <button class="btn btn-outline-success" onclick="consultaCep()">Pesquisar</button>
+              </div>
+            </div>
+          </nav>
+          <div class="container barra-progresso" style="margin-top: 80px;"> 
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+          </div>
+        </div>
+
+
+          <div class="container cep" style="margin-top:20px;">
+              <div class="row">
+                  <h3 id="titulo_cep">Endereço</h3>
+              </div>
+
+              <div class="row" style="margin-top:20px;">
+                  <table class="table">
+                      <thbody>
+
+                        <tr>
+                            <td>Rua</td>
+                            <td id="logradouro"></td>
+                        </tr>
+                        <tr>
+                            <td>Bairo</td>
+                            <td id="bairro"></td>
+                        </tr>
+
+                        <tr>
+                            <td >Localidade</td>
+                            <td id=localidade></td>
+                        </tr>
+                        <tr>
+                            <td >UF</td>
+                            <td id="uf"></td>
+                        </tr>
+
+                      </thbody>
+
+                  </table>
+
+
+
+          </div>
+         
+    
+</body>
+</html>
