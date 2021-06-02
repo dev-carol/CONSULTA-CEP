@@ -40,7 +40,7 @@ Realizado com apoio da : https://digitalinnovation.one/
 
 ## ✒️ Autores
 
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
+
 
 * Carol Santos 
 
